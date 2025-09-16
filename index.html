@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Sobre mí</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -54,27 +54,37 @@
     <div style="height:80px"></div>
 
     <div class="container mt-3">
-
         <div class="row scroll-offset mb-4" id="introduccion">
             <div class="col">
                 <div class="card bg-white text-dark shadow">
                     <div class="card-body">
-                        <h2 class="section-title">Introducción</h2>
-                        <p>
-                            Soy originario de La Unión, Antioquia, y actualmente estudio en la Institución Educativa Pío
-                            XI.
-                            Además de mi formación académica, estoy cursando una técnica del SENA en Programación de
-                            Software,
-                            lo que me ha permitido desarrollar habilidades en lógica de programación, desarrollo de
-                            aplicaciones
-                            y solución de problemas tecnológicos. Me apasiona la tecnología y estoy comprometido con
-                            seguir
-                            aprendiendo y creciendo en el área del desarrollo de software.
-                        </p>
+                        <div class="row align-items-center">
+                            <div class="col-md-3 text-center">
+                                <!-- Foto de perfil bien ubicada -->
+                                <img src="assets/img/avatar.webp" alt="Foto de perfil"
+                                    class="avatar rounded-circle img-fluid mb-3"
+                                    style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <div class="col-md-9">
+                                <h2 class="section-title">Introducción</h2>
+                                <p>
+                                    Soy originario de La Unión, Antioquia, y actualmente estudio en la Institución
+                                    Educativa Pío XI.
+                                    Además de mi formación académica, estoy cursando una técnica del SENA en
+                                    Programación de Software,
+                                    lo que me ha permitido desarrollar habilidades en lógica de programación, desarrollo
+                                    de aplicaciones
+                                    y solución de problemas tecnológicos. Me apasiona la tecnología y estoy comprometido
+                                    con seguir
+                                    aprendiendo y creciendo en el área del desarrollo de software.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
 
         <div class="row scroll-offset mb-4" id="educacion">
@@ -89,7 +99,7 @@
 
                                 <div class="carousel-item active">
                                     <div class="card bg-white text-dark carousel-card mx-auto"
-                                        style="max-width: 500px;">
+                                        style="max-width: 600px;height: 200px;">
                                         <div class="card-body">
                                             <h5 class="card-title">Primaria y Secundaria</h5>
                                             <h6 class="card-subtitle mb-2 text-muted">Institución Educativa Pío XI</h6>
@@ -107,7 +117,7 @@
 
                                 <div class="carousel-item">
                                     <div class="card bg-white text-dark carousel-card mx-auto"
-                                        style="max-width: 600px;">
+                                        style="max-width: 600px; height: 200px;">
                                         <div class="card-body">
                                             <h5 class="card-title">Media Técnica en Programación y Desarrollo de
                                                 Software</h5>
@@ -125,7 +135,7 @@
 
                                 <div class="carousel-item">
                                     <div class="card bg-white text-dark carousel-card mx-auto"
-                                        style="max-width: 500px;">
+                                        style="max-width: 600px;height: 200px;">
                                         <div class="card-body">
                                             <h5 class="card-title">Universidad (Futuro)</h5>
                                             <h6 class="card-subtitle mb-2 text-muted">Ingeniería en Sistemas o afines
@@ -183,7 +193,7 @@
                                                 <i class="bi bi-tools me-2"></i>Habilidades Técnicas
                                             </button>
                                         </h2>
-                                        <div id="collapseTecnicas" class="accordion-collapse collapse show"
+                                        <div id="collapseTecnicas" class="accordion-collapse collapse "
                                             aria-labelledby="headingTecnicas" data-bs-parent="#accordionTecnicas">
                                             <div class="accordion-body">
                                                 <ul>
@@ -207,7 +217,7 @@
                                                 <i class="bi bi-people-fill me-2"></i>Habilidades Blandas
                                             </button>
                                         </h2>
-                                        <div id="collapseBlandas" class="accordion-collapse collapse show"
+                                        <div id="collapseBlandas" class="accordion-collapse collapse "
                                             aria-labelledby="headingBlandas" data-bs-parent="#accordionBlandas">
                                             <div class="accordion-body">
                                                 <ul>
@@ -275,8 +285,9 @@
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-lightbulb-fill me-2"></i>Proyecto Productivo del SENA
                             </h5>
-                            <p class="card-text">Desarrollo de una aplicación web para gestión de inventarios en
-                                pequeños negocios, usando PHP y Bootstrap.</p>
+                            <p class="card-text">Desarrollo de una aplicación web para gestión de inmuebles para poder
+                                publicar tu propio inmueble o simplemente observar cual oferta de inmueble le parece
+                                interesante a las personas y asi ahorrarse un proceso largo de eleccion.</p>
                         </div>
                     </div>
                     <div class="card bg-dark text-light shadow">
